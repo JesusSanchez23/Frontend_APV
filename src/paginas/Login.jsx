@@ -29,7 +29,6 @@ const Login = () => {
         email,
         password,
       });
-      console.log(data);
       setAuth(data);
       localStorage.setItem("token", data.token);
       navegate("/admin");
